@@ -42,8 +42,23 @@ public class Interfejs {
                 String TekstKwota = Kwota.getText();
                 int kwota = Integer.parseInt(TekstKwota);
                 Suma += kwota;
-                WpiszKwote.setText(Suma+ "");
+                WpiszKwote.setText(Suma + "");
 
+            }
+        });
+
+        WpiszKwote.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent actionEvent) {
+                String text = Imie.getText();
+                wyswietl.append(text + "  ");
+                String text2 = Kwota.getText();
+                wyswietl.append(text2 + "\n");
+
+                String TekstKwota = Kwota.getText();
+                int kwota = Integer.parseInt(TekstKwota);
+                Suma += kwota;
+                WpiszKwote.setText(Suma + "");
             }
         });
     }
