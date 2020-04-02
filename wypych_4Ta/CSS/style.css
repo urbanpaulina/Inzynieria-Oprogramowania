@@ -1,0 +1,313 @@
+body
+{
+background: url(tlo.png);
+background-repeat: repeat; 
+background-size: cover;  
+-moz-background-size: cover;  
+display:block;  
+width:99%;  
+height:100%;  
+position:absolute;  
+overflow:auto;  
+}
+
+#naglowek
+{
+	background: #ECECEC; 
+	height: 55px; 
+	width: 100%;
+	font-size:35px;
+	font-family:"Palatino Linotype", bold;
+	text-align: center;
+	margin-top:30px;
+	border: 2px solid rgba(33, 68, 72, 0.59);
+	
+}
+
+#pasek
+{
+	background: #ECECEC; 
+	height: 20px; 
+	width: 100%;
+	font-size:35px;
+	font-family:"Palatino Linotype", bold;
+	text-align: center;
+	margin-top:30px;
+	border: 2px solid rgba(33, 68, 72, 0.59);
+	
+}
+
+
+#formularz
+{
+	margin-top:50px;
+	font-size:18px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"Palatino Linotype";
+	text-align: center;
+    text-justify: inter-word;
+}
+
+#formularz1
+{
+	font-size:18px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"Palatino Linotype";
+	text-align: center;
+    text-justify: inter-word;
+}
+	
+
+#naglowek1
+{
+	background: #BDBDBD; 
+	height: 45px; 
+	width: 500px;
+	font-size:30px;
+	font-family:Palatino Linotype, bold;
+	color:white;
+	border: 2px solid rgba(33, 68, 72, 0.59);
+	text-align: center;
+}
+#naglowek2
+{
+	background: #BDBDBD; 
+	height: 35px; 
+	width: 80%;
+	font-size:20px;
+	font-family:Palatino Linotype, bold;
+	color:white;
+	border: 2px solid rgba(33, 68, 72, 0.59);
+	text-align: center;
+}
+
+
+#naglowek3
+{
+	background: #BDBDBD; 
+	height: 45px; 
+	width: 100%;
+	font-size:30px;
+	font-family:Palatino Linotype, bold;
+	color:white;
+	border: 2px solid rgba(33, 68, 72, 0.59);
+	text-align: center;
+}
+#naglowek4
+{
+	background: #EEEEEE; 
+	height: 500px; 
+	width: 12%;
+	float:left;
+	font-size:20px;
+	font-family:Palatino Linotype, bold;
+	color:white;
+	text-align: center;
+	border:1px solid rgba(33, 68, 72, 0.59);
+	
+}
+	
+#naglowek6
+{
+	background: #ECECEC; 
+	height: 55px; 
+	width: 700px;
+	font-size:35px;
+	font-family:"Palatino Linotype", bold;
+	text-align: center;
+	margin-left:280px;
+	margin-top:30px;
+	border: 2px solid rgba(33, 68, 72, 0.59);
+}
+#block
+{
+	top:0;
+	font-size:20px;
+	margin-left:20px;
+	width: 60%px;
+	font-family:Palatino Linotype, bold;
+	color:white;
+	float:left;
+	
+	
+}
+.lista
+{
+	width:100%;
+	float:left;
+	border-bottom: 2px solid rgba(33, 68, 72, 0.59);
+	text-align: center;
+	color:black;
+}
+
+.lista:hover
+{
+	background: -webkit-linear-gradient(top, #CC0033, #FF3366);
+	background: -moz-linear-gradient(top, #CC0033, #FF3366);
+	background: -o-linear-gradient(top, #CC0033, #FF3366);
+	background:-moz-linear-gradient(top, #CC0033, #FF3366);
+	background: -o-linear-gradient(top, #CC0033, #FF3366);
+	background: -ms-linear-gradient(top, #CC0033, #FF3366);
+	background: linear-gradient(top, #CC0033, #FF3366);
+	color:white;
+}
+
+#echo
+{
+	font-size:30px;
+	font-family:"Palatino Linotype", bold;
+	text-align: center;
+	color:red;
+}
+
+
+.menuG
+{
+	float:left;
+	padding:10px;
+	border-right:2px solid yellow;
+	background-color:black;
+	font-size:20px;
+	font-family:"Palatino Linotype", bold;
+	text-align: center;
+	border-right:2px solid yellow;
+}
+#komunikat
+{
+	font-size:30px;
+	font-family:"Palatino Linotype", bold;
+	text-align: center;
+}
+#stopka
+{
+	font-size:20px;
+	font-family:"Palatino Linotype", bold;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	
+}
+#menu
+{	
+	width:100%;
+	height:50px;
+	background: #EEEEEE;
+	font-size:30px;
+	font-family:"Palatino Linotype", bold;
+	position:static;
+	margin-right:30px;
+}
+a
+{
+	color:black;
+	text-decoration: none;
+	font-size: 25px;
+}
+a:hover
+{
+	color:red;
+	text-decoration: none;
+	font-size: 25px;
+}
+.Ikony
+{
+	height: 40px; 
+	width: 100%;
+}
+#zdjecia
+{
+	text-align: center;
+	float: left;
+}
+
+.tooltipTextLink
+{
+	position: relative;
+	display: inline-block;
+	z-index:30000;
+}
+.tooltipTextLink .tooltipText 
+{
+	font-size:15px;
+	font-family:"Palatino Linotype", bold;
+	text-align: center;
+	visibility:hidden;
+	width: 120px;
+	background-color: green;
+	color: black;
+	padding: 5px 0;
+	position: absolute;
+	top:0;
+	
+}
+.tooltipTextLink .tooltipText::after
+{
+	content:"";
+	position:absolute;
+	bottom: 100%;
+	margin-left:-5px;
+	border-width: 5px;
+}
+
+.tooltipTextLink:hover .tooltipText
+{
+	font-size:15px;
+	font-family:"Palatino Linotype", bold;
+	text-align: center;
+	visibility: visible;
+	width: 190px;
+	background-color: #DDDDDD;
+	color: black;
+	text-align: left;
+	padding: 5px 0;
+	position: absolute;
+	border-style: solid;
+	background: #CC0033; 
+	color:white;
+	border: 2px solid rgba(33, 68, 72, 0.59);
+	background: -webkit-linear-gradient(top, #CC0033, #FF3366);
+	background: -moz-linear-gradient(top, #CC0033, #FF3366);
+	background: -o-linear-gradient(top, #CC0033, #FF3366);
+	background: -ms-linear-gradient(top, #CC0033, #FF3366);
+	background: linear-gradient(top, #CC0033, #FF3366);
+}
+.albumyz
+{
+	float: left;
+}
+#pas
+{
+	background: #BDBDBD; 
+	height: 45px; 
+	width: 60%;
+	margin-left:300px;
+	font-size:30px;
+	font-family:Palatino Linotype, bold;
+	color:white;
+	border: 2px solid rgba(33, 68, 72, 0.59);
+	text-align: center;
+}
+.Witaj
+{
+	border-top:10px;
+	color:red;
+	font-size:30px;
+}
+table {
+    border-collapse: collapse;
+}
+
+table, td, th {
+    border: 1px solid black;
+}
+tr:nth-child(even) 
+{
+	background-color: #f2f2f2;
+	}
+th {
+	font-size:20px;
+    background-color:#CC0033;
+    color: white;
+}
